@@ -22,7 +22,8 @@ block gas limit (max amount of gas allowed in a block, set by the network) */
     // Using up all of the gas that you send causes your transaction to fail.
     // State changes are undone.
     // Gas spent are not refunded.
-    function forver() {
+
+    function forver() public {
         // Here we run a loop until all of the gas are spent
         // and the transaction fails
         while (true) {
