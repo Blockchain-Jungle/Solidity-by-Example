@@ -1,21 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.6;
 
+import "./EnumDeclaration.sol";
+
 /*
 Solidity supports enumerables and they are useful to model choice and keep track of state.
 
 Enums can be declared ouside of a contract.
 */
-contract Enum {
-    // Enum representing shipping status
-    enum Status {
-        Pending,
-        Shipped,
-        Accepted,
-        Rejected,
-        Caceled
-    }
-
+contract Enum is EnumDeclaration {
     // Default value is the first element listed in
     // definition of the type, in this case "Pending"
     Status public status;
@@ -46,17 +39,3 @@ contract Enum {
         delete status;
     }
 }
-
-/* Enum can be imported from file too 
-
-For Example the Enum from file that contain as bellow
----------------------------------------------------
-pragma solidity ^0.8.6;
-
-import "./EnumDeclaration.sol";
-
-contract Enum {
-    Status public status;
-}
---------------------------------------------------
-*/

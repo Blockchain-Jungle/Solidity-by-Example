@@ -1,0 +1,209 @@
+{
+  "contractName": "EnumDeclaration",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.6+commit.11564f7e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/ayoung/project/Solidity-by-Example/contracts/11Enum/EnumDeclaration.sol\":\"EnumDeclaration\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/ayoung/project/Solidity-by-Example/contracts/11Enum/EnumDeclaration.sol\":{\"keccak256\":\"0x8a22346620af164dfa8dae0e0c80c9f216e917f3933a1fd9f92253ec2a23acb9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6d58b65e6aca46c5e25dba7319eaa1d1cf1575313003645cb8b5f9190d37a8b2\",\"dweb:/ipfs/QmP2uj4SZf4bBnwuGCL5xRCj2Luj97uyz3LG48JtmarzQy\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220226eb7d0a1644c1928b77ac365ed772304dffc5d041d6ab9b69a2b9b184adfe764736f6c63430008060033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220226eb7d0a1644c1928b77ac365ed772304dffc5d041d6ab9b69a2b9b184adfe764736f6c63430008060033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:179:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:179:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.6;\n\ncontract EnumDeclaration {\n    // Enum representing shipping status\n    enum Status {\n        Pending,\n        Shipped,\n        Accepted,\n        Rejected,\n        Caceled\n    }\n}\n",
+  "sourcePath": "/home/ayoung/project/Solidity-by-Example/contracts/11Enum/EnumDeclaration.sol",
+  "ast": {
+    "absolutePath": "/home/ayoung/project/Solidity-by-Example/contracts/11Enum/EnumDeclaration.sol",
+    "exportedSymbols": {
+      "EnumDeclaration": [
+        53
+      ]
+    },
+    "id": 54,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 46,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 53,
+        "linearizedBaseContracts": [
+          53
+        ],
+        "name": "EnumDeclaration",
+        "nameLocation": "66:15:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "EnumDeclaration.Status",
+            "id": 52,
+            "members": [
+              {
+                "id": 47,
+                "name": "Pending",
+                "nameLocation": "151:7:1",
+                "nodeType": "EnumValue",
+                "src": "151:7:1"
+              },
+              {
+                "id": 48,
+                "name": "Shipped",
+                "nameLocation": "168:7:1",
+                "nodeType": "EnumValue",
+                "src": "168:7:1"
+              },
+              {
+                "id": 49,
+                "name": "Accepted",
+                "nameLocation": "185:8:1",
+                "nodeType": "EnumValue",
+                "src": "185:8:1"
+              },
+              {
+                "id": 50,
+                "name": "Rejected",
+                "nameLocation": "203:8:1",
+                "nodeType": "EnumValue",
+                "src": "203:8:1"
+              },
+              {
+                "id": 51,
+                "name": "Caceled",
+                "nameLocation": "221:7:1",
+                "nodeType": "EnumValue",
+                "src": "221:7:1"
+              }
+            ],
+            "name": "Status",
+            "nameLocation": "134:6:1",
+            "nodeType": "EnumDefinition",
+            "src": "129:105:1"
+          }
+        ],
+        "scope": 54,
+        "src": "57:179:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:205:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/ayoung/project/Solidity-by-Example/contracts/11Enum/EnumDeclaration.sol",
+    "exportedSymbols": {
+      "EnumDeclaration": [
+        53
+      ]
+    },
+    "id": 54,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 46,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 53,
+        "linearizedBaseContracts": [
+          53
+        ],
+        "name": "EnumDeclaration",
+        "nameLocation": "66:15:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "EnumDeclaration.Status",
+            "id": 52,
+            "members": [
+              {
+                "id": 47,
+                "name": "Pending",
+                "nameLocation": "151:7:1",
+                "nodeType": "EnumValue",
+                "src": "151:7:1"
+              },
+              {
+                "id": 48,
+                "name": "Shipped",
+                "nameLocation": "168:7:1",
+                "nodeType": "EnumValue",
+                "src": "168:7:1"
+              },
+              {
+                "id": 49,
+                "name": "Accepted",
+                "nameLocation": "185:8:1",
+                "nodeType": "EnumValue",
+                "src": "185:8:1"
+              },
+              {
+                "id": 50,
+                "name": "Rejected",
+                "nameLocation": "203:8:1",
+                "nodeType": "EnumValue",
+                "src": "203:8:1"
+              },
+              {
+                "id": 51,
+                "name": "Caceled",
+                "nameLocation": "221:7:1",
+                "nodeType": "EnumValue",
+                "src": "221:7:1"
+              }
+            ],
+            "name": "Status",
+            "nameLocation": "134:6:1",
+            "nodeType": "EnumDefinition",
+            "src": "129:105:1"
+          }
+        ],
+        "scope": 54,
+        "src": "57:179:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:205:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.6+commit.11564f7e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-07-29T08:18:00.541Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
